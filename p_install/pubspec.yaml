@@ -1,8 +1,7 @@
 name: p_install
-description: A new Flutter plugin.
-version: 0.0.1
-author:
-homepage:
+description: app upgrade
+version: 0.0.1-dev.1
+homepage: https://github.com/fangmd/flutterplugin
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

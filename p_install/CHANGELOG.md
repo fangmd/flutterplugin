@@ -1,3 +1,8 @@
+
+## 0.0.1-dev.1
+
+1. update readme
+
 ## 0.0.1
 
-* TODO: Describe initial release.
+不成熟的 app 升级插件
