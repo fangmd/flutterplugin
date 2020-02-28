@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - p_install (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - p_install (from `.symlinks/plugins/p_install/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  p_install:
+    :path: ".symlinks/plugins/p_install/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  p_install: 4436b10767abf620a9b2364c84478d7a090d65d4
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.8.4
