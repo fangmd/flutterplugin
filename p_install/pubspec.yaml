@@ -1,6 +1,6 @@
 name: p_install
 description: app upgrade
-version: 0.0.1-dev.1
+version: 0.0.2
 homepage: https://github.com/fangmd/flutterplugin
 
 environment:

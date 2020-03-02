@@ -7,6 +7,7 @@ class PInstall {
 
   static const INSTALL = 'install';
 
+  /// iosUrl not work with the iOS Simulator
   static Future<String> install({String filePath, String iosUrl}) async {
     if (Platform.isAndroid) {
       if (filePath != null) {
