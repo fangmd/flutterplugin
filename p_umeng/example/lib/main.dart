@@ -1,6 +1,11 @@
-import 'package:p_umeng/p_umeng.dart';
 import 'package:flutter/material.dart';
+import 'package:p_umeng_example/router/router.dart';
 import 'dart:async';
+import 'package:p_umeng_example/router/router_config.dart';
+import 'package:p_umeng_example/ui/home_page.dart';
+import 'package:p_umeng_example/utils/analytics/analytics.dart';
+
+import 'utils/analytics/app_analysis.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,48 +24,25 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future<void> initUmeng() async {
-    PUmeng.setLogEnabled(true);
-    PUmeng.init("5b7fc0558f4a9d19e600004e");
+    AnalyticsUtils.init();
   }
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Plugin example app'),
-        ),
-        body: Center(
-          child: Column(
-            children: <Widget>[
-              RaisedButton(
-                onPressed: () {
-                  PUmeng.onPageStart("Home");
-                  print('asasa');
-                },
-                child: Text(
-                  'Page Start',
-                ),
-              ),
-              RaisedButton(
-                onPressed: () {
-                  PUmeng.onPageEnd("Home");
-                },
-                child: Text(
-                  'End',
-                ),
-              ),
-              RaisedButton(
-                onPressed: () {
-                  PUmeng.onEvent("MyEvent", label: "MyLabel");
-                },
-                child: Text(
-                  'Event',
-                ),
-              ),
-            ],
-          ),
-        ),
+      navigatorKey: RouterUtils.navigatorKey,
+      title: 'P_uemng',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      routes: buildRoutes(),
+      navigatorObservers: [
+        AppAnalysis(),
+      ],
+      home: Builder(
+        builder: (context) {
+          return HomePage();
+        },
       ),
     );
   }
