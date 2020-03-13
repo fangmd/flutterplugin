@@ -1,3 +1,5 @@
+import 'package:p_umeng_example/c.dart';
+
 import '../logger.dart';
 import 'package:p_umeng/p_umeng.dart';
 
@@ -14,17 +16,17 @@ class AnalyticsUtils {
   }
 
   static beginPage(String pageName) {
-    Logger.d(msg: 'beginPage $pageName');
+    Logger.d(tag: Tag.Analytics, msg: 'beginPage $pageName');
     PUmeng.onPageStart(pageName);
   }
 
   static endPage(String pageName) {
-    Logger.d(msg: 'endPage $pageName');
+    Logger.d(tag: Tag.Analytics, msg: 'endPage $pageName');
     PUmeng.onPageEnd(pageName);
   }
 
   static event(String name, {String label}) {
-    Logger.d(msg: 'event $name');
+    Logger.d(tag: Tag.Analytics, msg: 'event $name');
     PUmeng.onEvent(name, label: label);
   }
 }

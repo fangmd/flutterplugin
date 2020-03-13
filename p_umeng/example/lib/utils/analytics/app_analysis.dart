@@ -6,7 +6,7 @@ class AppAnalysis extends NavigatorObserver {
   void didPush(Route<dynamic> route, Route<dynamic> previousRoute) {
     if (route is PageRoute) {
       if (route.settings.name != null) {
-        AnalyticsUtils.beginPage(route.settings.name);
+//        AnalyticsUtils.beginPage(route.settings.name);
       }
     }
   }
@@ -15,7 +15,7 @@ class AppAnalysis extends NavigatorObserver {
   void didPop(Route<dynamic> route, Route<dynamic> previousRoute) {
     if (route is PageRoute) {
       if (route.settings.name != null) {
-        AnalyticsUtils.endPage(route.settings.name);
+//        AnalyticsUtils.endPage(route.settings.name);
       }
     }
   }

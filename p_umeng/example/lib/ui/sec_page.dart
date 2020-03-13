@@ -13,9 +13,16 @@ class SecPage extends BasePage {
   }
 }
 
-class _SecPageState extends State<SecPage> {
+class _SecPageState extends BasePageState<SecPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        alignment: Alignment.center,
+        child: Text('Second Page'),
+      ),
+    );
   }
 }

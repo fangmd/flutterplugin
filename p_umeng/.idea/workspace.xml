@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="962a2105-469a-4418-9a8a-f5ba5fc45e57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/base/base_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/base/navigator_manager.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/router/router.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/router/router_config.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/ui/home_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/ui/sec_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/utils/analytics/analytics.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/utils/analytics/app_analysis.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/utils/analytics/firebase_analytics.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/utils/common_function.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/lib/utils/logger.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/lib/c.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/p_umeng.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/p_umeng.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/passon/p_umeng/MethodCallHandlerImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/passon/p_umeng/MethodCallHandlerImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/base/base_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/base/base_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/ui/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/ui/home_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/ui/sec_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/ui/sec_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/utils/analytics/analytics.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/utils/analytics/analytics.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/utils/analytics/app_analysis.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/utils/analytics/app_analysis.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/utils/logger.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/utils/logger.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,10 +40,11 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/example/build/app/outputs/apk/debug/app-debug.apk" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/example/lib/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -78,12 +79,17 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

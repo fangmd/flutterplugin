@@ -16,7 +16,7 @@ class HomePage extends BasePage {
   }
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends BasePageState<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
             ),
             RaisedButton(
               onPressed: () {
-                PUmeng.onEvent("MyEvent", label: "MyLabel");
+                PUmeng.onEvent("MyEvent2", label: "MyLabel2");
               },
               child: Text(
                 'Event',
