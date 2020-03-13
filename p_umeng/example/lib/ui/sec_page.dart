@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:p_umeng_example/base/base_page.dart';
+import 'package:p_umeng_example/router/router.dart';
+import 'package:p_umeng_example/ui/third_page.dart';
 
 class SecPage extends BasePage {
   static const routeName = '/Sec';
@@ -21,7 +23,13 @@ class _SecPageState extends BasePageState<SecPage> {
         width: double.infinity,
         height: double.infinity,
         alignment: Alignment.center,
-        child: Text('Second Page'),
+        child: FlatButton(
+          color: Colors.green,
+          onPressed: () {
+            RouterUtils.pushNamed(context, ThirdPage.routeName);
+          },
+          child: Text('To Third Page'),
+        ),
       ),
     );
   }

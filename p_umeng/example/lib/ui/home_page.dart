@@ -36,7 +36,7 @@ class _HomePageState extends BasePageState<HomePage> {
             ),
             RaisedButton(
               onPressed: () {
-                PUmeng.onPageStart("Home");
+                PUmeng.onPageStart("/Home");
                 print('asasa');
               },
               child: Text(
@@ -45,7 +45,7 @@ class _HomePageState extends BasePageState<HomePage> {
             ),
             RaisedButton(
               onPressed: () {
-                PUmeng.onPageEnd("Home");
+                PUmeng.onPageEnd("/Home");
               },
               child: Text(
                 'End',
@@ -53,7 +53,7 @@ class _HomePageState extends BasePageState<HomePage> {
             ),
             RaisedButton(
               onPressed: () {
-                PUmeng.onEvent("MyEvent2", label: "MyLabel2");
+                PUmeng.onEvent("MyEvent", label: "MyLabel");
               },
               child: Text(
                 'Event',
