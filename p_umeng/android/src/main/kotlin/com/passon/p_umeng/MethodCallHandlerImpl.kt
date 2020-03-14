@@ -48,7 +48,7 @@ public final class MethodCallHandlerImpl : MethodChannel.MethodCallHandler {
         val pushSecret = call.argument<String>("pushSecret")
         logd("init: $key $channel")
         UMConfigure.init(mContext, key, channel, deviceType, pushSecret)
-        MobclickAgent.setPageCollectionMode(MobclickAgent.PageMode.MANUAL)
+        MobclickAgent.setPageCollectionMode(MobclickAgent.PageMode.AUTO)
         result.success(null)
     }
 

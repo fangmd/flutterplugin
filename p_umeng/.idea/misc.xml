@@ -8,6 +8,7 @@
     <option name="modulesWithSuppressedNotConfigured">
       <set>
         <option value="p_umeng_android" />
+        <option value="p_umeng_example_android" />
       </set>
     </option>
   </component>

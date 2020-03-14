@@ -16,16 +16,19 @@ class AnalyticsUtils {
   }
 
   static beginPage(String pageName) {
-    Logger.d(tag: Tag.Analytics, msg: 'beginPage $pageName');
+    if (pageName == null) return;
+    // Logger.d(tag: Tag.Analytics, msg: 'beginPage $pageName');
     PUmeng.onPageStart(pageName);
   }
 
   static endPage(String pageName) {
-    Logger.d(tag: Tag.Analytics, msg: 'endPage $pageName');
+    if (pageName == null) return;
+    // Logger.d(tag: Tag.Analytics, msg: 'endPage $pageName');
     PUmeng.onPageEnd(pageName);
   }
 
   static event(String name, {String label}) {
+    if (name == null) return;
     Logger.d(tag: Tag.Analytics, msg: 'event $name');
     PUmeng.onEvent(name, label: label);
   }

@@ -9,6 +9,6 @@ import android.util.Log
 
 fun logd(msg: String) {
     if (BuildConfig.DEBUG) {
-        Log.d(C.TAG, msg)
+        // Log.d(C.TAG, msg)
     }
 }
