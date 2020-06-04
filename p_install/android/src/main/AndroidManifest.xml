@@ -6,7 +6,7 @@
 
     <application>
         <provider
-            android:name="androidx.core.content.FileProvider"
+            android:name=".PFileProvider"
             android:authorities="${applicationId}.fileProvider.install"
             android:exported="false"
             android:grantUriPermissions="true">

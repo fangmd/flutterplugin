@@ -13,3 +13,12 @@
 ## IOS
 
 打开 App Store
+
+
+## Usage
+
+```
+PInstall.install(iosUrl: url);
+
+PInstall.install(filePath: androidApkFilePath);
+```
