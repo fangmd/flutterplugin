@@ -2,6 +2,10 @@
 
 不成熟的 app 更新插件
 
+Android 直接安装 apk
+
+iOS 跳转应用商店
+
 ## Getting Started
 
 ## Android

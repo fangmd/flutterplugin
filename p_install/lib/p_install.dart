@@ -8,7 +8,7 @@ class PInstall {
   static const INSTALL = 'install';
 
   /// iosUrl not work with the iOS Simulator
-  static Future<String> install({String filePath, String iosUrl}) async {
+  static Future<dynamic> install({String? filePath, String? iosUrl}) async {
     if (Platform.isAndroid) {
       if (filePath != null) {
         return _channel.invokeMethod(INSTALL, {'filePath': filePath});

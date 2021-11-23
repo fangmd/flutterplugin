@@ -1,4 +1,9 @@
 
+
+## 0.0.5
+
+1. dart null safe
+
 ## 0.0.4
 
 1. fix android FileProvider
